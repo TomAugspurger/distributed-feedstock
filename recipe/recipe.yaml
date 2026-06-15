@@ -15,7 +15,7 @@ source:
   sha256: 88b836dc2d85340cad7e08f2611b9336a70ed018d88bc5a70c3721d4a7efcabd
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
   python:
@@ -48,7 +48,6 @@ requirements:
     - tblib >=1.6.0
     - toolz >=0.12.0
     - tornado >=6.2.0
-    - urllib3 >=1.26.5
     - zict >=3.0.0
   run_constraints:
     - openssl !=1.1.1e
